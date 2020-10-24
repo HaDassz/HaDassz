@@ -1,8 +1,8 @@
 \contentsline {chapter}{\textbf {摘要}}{ii}{section*.1}%
 \contentsline {chapter}{\textbf {Abstract}}{iii}{section*.2}%
 \contentsline {chapter}{\textbf {Table of Contents}}{iv}{section*.3}%
-\contentsline {chapter}{\textbf {List of Figures}}{vi}{section*.4}%
-\contentsline {chapter}{\textbf {List of Tables}}{vii}{section*.5}%
+\contentsline {chapter}{\textbf {List of Figures}}{v}{section*.4}%
+\contentsline {chapter}{\textbf {List of Tables}}{vi}{section*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}環境設定}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}開使寫作}{1}{section.1.2}%
