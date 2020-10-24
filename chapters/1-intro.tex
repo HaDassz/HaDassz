@@ -6,9 +6,40 @@
 在統計製程控制(Statistical Process Control,SPC)研究中，有許多可以評估製程(process)的能力(Capability)之指標，
 被稱為製程能力指標(Process Capability Index,PCI)，若SPC透過控制圖(control chart)判斷製程是受控的(in-control)，
 則PCI可以對製程提供一個有效的預測，並且分析比較其製程的潛在分配，由客戶或製程管理者訂定出規格的上下界，
-進而提供PCI評斷的標準，
+進而提供PCI評斷的標準，根據Kane(1986)\cite{Kane_1986}，講解了常使用的2種指標$C_{p}$及$C_{pk}$，並講解了
+目標值(Target value,T)，列舉如下：
+\begin{equation}\label{equ:1}
+    C_{p}=\frac{USL-LSL}{6\sigma}
+\end{equation}
 
+\begin{equation}\label{equ:2}
+    C_{pk}=\frac{\min(USL-\mu, \mu-LSL)}{3\sigma}
+\end{equation}
+其中$USL$與$LSL$是規格上界(upper specification limits)與規格下界(lower specification limits)，
+$\mu$是製程的平均，$\sigma$是製程的標準差，而在Vännman(1995)\cite{Vannman_1995}有定義出1個能力指標的類別，
+在Chen(2001)中有整理如下：
+\begin{equation}\label{equ:3}
+    C_{p}(u, v)=\frac{d-u|\mu-m|}{3\sqrt{\sigma^{2}+v(\mu-T)^{2}}}
+\end{equation}
+其中$u,v$是非負參數，$d=(USL-LSL)/2$，$m=(USL+LSL)/2$是規格中線，以及$T$是目標值，而式\ref{equ:1}與式\ref{equ:2}則是
+式\ref{equ:3}中的特例，可以透過調整$(u,v)$來變化出4種指標如下：
+\begin{equation}\label{equ:4}
+    C_{p}(0, 0)= C_{p}=\frac{USL-LSL}{6\sigma}
+\end{equation}
 
+\begin{equation}\label{equ:5}
+    C_{p}(1, 0)=C_{pk}=\frac{\min(USL-\mu, \mu-LSL)}{3\sigma}
+\end{equation}
+
+\begin{equation}\label{equ:6}
+    C_{p}(0, 1)=C_{pm}=\frac{USL-LSL}{6\sqrt{\sigma^{2}+(\mu-T)^{2}}}
+\end{equation}
+
+\begin{equation}\label{equ:7}
+    C_{p}(1, 1)=C_{pmk}=\frac{\min(USL-\mu, \mu-LSL)}{3\sqrt{\sigma^{2}+(\mu-T)^{2}}}
+\end{equation}
+
+我
 \section{環境設定}
 
 推薦使用的編譯環境 (LaTeX core + LaTeX editor + Bibliography editor)
