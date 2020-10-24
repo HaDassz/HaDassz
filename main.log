@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.17)  22 OCT 2020 00:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.17)  24 OCT 2020 12:59
 entering extended mode
-**c:/Users/HaDassz/Documents/論文相關/交大論文模版/main.tex
-(c:/Users/HaDassz/Documents/論文相關/交大論文模版/main.tex
+**c:/Users/HaDassz/Documents/論文相關/鈞惟論文模版/main.tex
+(c:/Users/HaDassz/Documents/論文相關/鈞惟論文模版/main.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (thesis.cls
 Document Class: thesis 2017/07/20 V2.5 by Borting Chen
@@ -1184,12 +1184,12 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 Underfull \hbox (badness 10000) detected at line 29
-\TU/DFKai-SB(0)/m/n/40 國 立 交 通 大 學
+\TU/DFKai-SB(0)/m/n/40 國 立 臺 北 大 學
  []
 
 
-Underfull \hbox (badness 2521) detected at line 29
-\TU/DFKai-SB(0)/b/n/28 電 控 工 程 研 究 所
+Underfull \hbox (badness 3098) detected at line 29
+\TU/DFKai-SB(0)/b/n/28 統 計 研 究 所
  []
 
 
@@ -1215,7 +1215,7 @@ Underfull \hbox (badness 10000) detected at line 29
 
 
 Underfull \hbox (badness 10000) detected at line 29
-\TU/DFKai-SB(0)/m/n/14.4 中 華 民 國 一 百 零 六 年 二 月
+\TU/DFKai-SB(0)/m/n/14.4 中 華 民 國 一 百 零 九 年 十 月
  []
 
 
@@ -1237,12 +1237,12 @@ Underfull \hbox (badness 10000) detected at line 29
 
 
 Underfull \hbox (badness 10000) detected at line 29
-\TU/DFKai-SB(0)/m/n/14.4 國 立 交 通 大 學
+\TU/DFKai-SB(0)/m/n/14.4 國 立 臺 北 大 學
  []
 
 
-Underfull \hbox (badness 1253) detected at line 29
-\TU/DFKai-SB(0)/m/n/14.4 電 控 工 程 研 究 所
+Underfull \hbox (badness 1546) detected at line 29
+\TU/DFKai-SB(0)/m/n/14.4 統 計 研 究 所
  []
 
 
@@ -1252,7 +1252,7 @@ Underfull \hbox (badness 1365) detected at line 29
 
 
 Underfull \hbox (badness 10000) detected at line 29
-\TU/DFKai-SB(0)/m/n/12 中 華 民 國 一 百 零 六 年 二 月
+\TU/DFKai-SB(0)/m/n/12 中 華 民 國 一 百 零 九 年 十 月
  []
 
 (abs/abstract_zh.tex [1
@@ -1284,18 +1284,11 @@ Underfull \hbox (badness 10000) detected at line 29
 ]
 (chapters/1-intro.tex
 Chapter 1.
-
-Overfull \hbox (7.69534pt too wide) in paragraph at lines 4--6
-[]\TU/DFKai-SB(0)/m/n/12 本 \TU/TimesNewRoman(0)/m/n/12 template \TU/DFKai-SB(0)
-/m/n/12 參 考 國 立 交 通 大 學 註 冊 組 所 提 供 的 \TU/TimesNewRoman(0)/m/n/12 “\TU/DFKai-SB
-(0)/m/n/12 學 位 論 文 格 式\TU/TimesNewRoman(0)/m/n/12 ” (http:// aadm.nctu.edu.tw/
- []
-
 [1
 
 
 ]) (chapters/2-doccls.tex
-Overfull \hbox (0.31384pt too wide) in paragraph at lines 69--1
+Overfull \hbox (0.31384pt too wide) in paragraph at lines 73--1
 []\TU/TimesNewRoman(0)/m/n/12 Chapter []2[] introduces thesis.cls document clas
 s. Chapter []3[] introduces section ordering. Chap-
  []
@@ -1314,6 +1307,12 @@ Chapter 3.
 
 ] [9]) (chapters/4-ref.tex [10]
 Chapter 4.
+
+LaTeX Warning: Citation `Yang_2016' on page 11 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Yang_2017' on page 11 undefined on input line 16.
+
 ) (chapters/5-figure.tex [11
 
 ]
@@ -1322,17 +1321,12 @@ File: figures/nctu_logo.pdf Graphic file (type pdf)
 <use figures/nctu_logo.pdf>
 ) [12
 
-] (main.bbl
-Underfull \hbox (badness 10000) detected at line 2
-\TU/TimesNewRoman(0)/b/n/24.88 References
- []
-
-) (appx/1-appendix.tex [13
-
-
 ]
+No file main.bbl.
+(appx/1-appendix.tex
 Appendix A.
-) (author/cv.tex) (author/publications.tex) [14
+) (author/cv.tex) (author/publications.tex) [13
+
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
@@ -1342,6 +1336,9 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 119.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C9FC2166042E1CF88B90FA5AD19BBDE;723.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1355,12 +1352,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
 (\end occurred when \iffalse on line 1 was incomplete)
 (\end occurred when \iffalse on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 26609 strings out of 414039
- 545568 string characters out of 2892337
- 1097922 words of memory out of 3000000
- 43771 multiletter control sequences out of 15000+200000
+ 26599 strings out of 414039
+ 545411 string characters out of 2892337
+ 1097808 words of memory out of 3000000
+ 43763 multiletter control sequences out of 15000+200000
  537693 words of font info for 94 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,14n,85p,475b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,85p,475b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (22 pages).
+Output written on main.pdf (21 pages).
