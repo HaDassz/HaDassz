@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.17)  24 OCT 2020 23:39
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.17)  31 OCT 2020 00:20
 entering extended mode
 **c:/Users/HaDassz/Documents/論文相關/鈞惟論文模版/main.tex
 (c:/Users/HaDassz/Documents/論文相關/鈞惟論文模版/main.tex
@@ -1284,55 +1284,48 @@ Underfull \hbox (badness 10000) detected at line 29
 ]
 (chapters/1-intro.tex
 Chapter 1.
-
-LaTeX Warning: Citation `Kane_1986' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Vannman_1995' on page 1 undefined on input line 19.
-
 [1
 
 
 ] [2]) (chapters/2-doccls.tex
-Overfull \hbox (0.31384pt too wide) in paragraph at lines 105--1
+Overfull \hbox (0.31384pt too wide) in paragraph at lines 109--1
 []\TU/TimesNewRoman(0)/m/n/12 Chapter []2[] introduces thesis.cls document clas
 s. Chapter []3[] introduces section ordering. Chap-
  []
 
-[3]
+[3] [4]
 Chapter 2.
-[4
+[5
 
-] [5] (tables/table-classopt.tex
+] [6] (tables/table-classopt.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [6] (tables/table-files.tex)) (chapters/3-secorder.tex [7]
+) [7] (tables/table-files.tex)) (chapters/3-secorder.tex [8]
 Chapter 3.
-[8
+[9
 
-] [9]) (chapters/4-ref.tex [10]
+] [10]) (chapters/4-ref.tex [11]
 Chapter 4.
-
-LaTeX Warning: Citation `Yang_2016' on page 11 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Yang_2017' on page 11 undefined on input line 16.
-
-) (chapters/5-figure.tex [11
+) (chapters/5-figure.tex [12
 
 ]
 Chapter 5.
 File: figures/nctu_logo.pdf Graphic file (type pdf)
 <use figures/nctu_logo.pdf>
-) [12
+) [13
+
+] (main.bbl
+Underfull \hbox (badness 10000) detected at line 2
+\TU/TimesNewRoman(0)/b/n/24.88 References
+ []
+
+) (appx/1-appendix.tex [14
+
 
 ]
-No file main.bbl.
-(appx/1-appendix.tex
 Appendix A.
-) (author/cv.tex) (author/publications.tex) [13
-
+) (author/cv.tex) (author/publications.tex) [15
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
@@ -1342,9 +1335,6 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 119.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C9FC2166042E1CF88B90FA5AD19BBDE;723.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1358,12 +1348,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
 (\end occurred when \iffalse on line 1 was incomplete)
 (\end occurred when \iffalse on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 26617 strings out of 414039
- 546151 string characters out of 2892337
- 1098618 words of memory out of 3000000
- 43781 multiletter control sequences out of 15000+200000
+ 26630 strings out of 414039
+ 546344 string characters out of 2892337
+ 1098739 words of memory out of 3000000
+ 43792 multiletter control sequences out of 15000+200000
  537693 words of font info for 94 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,14n,85p,475b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,85p,475b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (23 pages).
