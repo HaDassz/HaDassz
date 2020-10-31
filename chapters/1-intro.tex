@@ -41,8 +41,33 @@ $\mu$是製程平均，$\sigma$是製程標準差，而在Vännman(1995)\cite{Va
 
 在Chen(2001)\cite{Chen_2001}中有提到式$C_{p}$\ref{equ:4}無法偵測製程平均與規格中心之間的差距，
 $C_{pk}$式\ref{equ:5}將製成平均及規格上下界的關係考慮進來，並且稍微降低了$C_{p}$的值，二者之間有一個關係：
-$C_{pk}=C_{p}(1-k)$，其中$k=2|m-\mu|/(USL-LSL)$，但是$C_{pk}$沒有考慮到目標值，
+$C_{pk}=C_{p}(1-k)$，其中$k=2|m-\mu|/(USL-LSL)$，但是$C_{pk}$無法偵測製程平均與目標值的差距，
+以上的指標式\ref{equ:4}、\ref{equ:5}、\ref{equ:6}、\ref{equ:7}是當基本分布(underlying distribution)
+是常態分布時才適用，Chen and Pearn(1997)\cite{ChenPearn_1997}與 Tong and Chen(1998)\cite{TongChen_1998}提出了一個指標類別來適用任何的基本分布包括
+非常態分布，如下所示：
+\begin{equation}\label{equ:8}
+    C_{Np}(u, v)=\frac{d-u|M-m|}{3\sqrt{(\frac{F_{99.865}-F_{0.135}}{6})^{2}+v(M-T)^{2}}}
+\end{equation}
+其中$F_{\alpha}$是指第$\alpha$分位數，$M$是製程中位數，式\ref{equ:8}是將式\ref{equ:3}中的$\mu$用$M$取代；
+$\sigma$用$(F_{99.865}-F_{0.135})/6$取代，藉由計算過後去模仿常態分布的尾端機率，使其製程平均$\mu$ $\pm 3\sigma$以外的機率
+達到$0.27\%$，藉此保證$C_{Np}(u, v)=1$時，$(USL, LSL)$區間以外的機率會很小，在基本分布是任意分布的情況下，
+某些分布偏態係數特別大，此時用製程中位數$M$來衡量指標會比用製程平均$\mu$來得穩定，如同$C_{p}(u,v)$一般，
+透過調整$(u,v)$來變化出4種指標如下：
+\begin{equation}\label{equ:9}
+    C_{Np}(0, 0)= C_{Np}=\frac{USL-LSL}{F_{99.865}-F_{0.135}}
+\end{equation}
 
+\begin{equation}\label{equ:10}
+    C_{Np}(1, 0)=C_{Npk}=\frac{2\min(USL-M, M-LSL)}{F_{99.865}-F_{0.135}}
+\end{equation}
+
+\begin{equation}\label{equ:11}
+    C_{Np}(0, 1)=C_{Npm}=\frac{USL-LSL}{6\sqrt{(\frac{F_{99.865}-F_{0.135}}{6})^{2}+(M-T)^{2}}}
+\end{equation}
+
+\begin{equation}\label{equ:12}
+    C_{Np}(1, 1)=C_{Npmk}=\frac{\min(USL-M, M-LSL)}{3\sqrt{(\frac{F_{99.865}-F_{0.135}}{6})^{2}+(M-T)^{2}}}
+\end{equation}
 
 \section{環境設定}
 

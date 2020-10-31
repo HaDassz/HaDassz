@@ -18,44 +18,44 @@ Database file #2: bib/thesis.bib
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
 
 Done.
-You've used 6 entries,
+You've used 8 entries,
             4087 wiz_defined-function locations,
-            862 strings with 7959 characters,
-and the built_in function-call counts, 3907 in all, are:
-= -- 334
-> -- 63
-< -- 40
-+ -- 35
-- -- 8
-* -- 196
-:= -- 625
-add.period$ -- 10
-call.type$ -- 6
-change.case$ -- 7
-chr.to.int$ -- 84
-cite$ -- 6
-duplicate$ -- 265
-empty$ -- 294
-format.name$ -- 10
-if$ -- 889
+            878 strings with 8318 characters,
+and the built_in function-call counts, 5762 in all, are:
+= -- 499
+> -- 102
+< -- 62
++ -- 57
+- -- 13
+* -- 288
+:= -- 898
+add.period$ -- 14
+call.type$ -- 8
+change.case$ -- 9
+chr.to.int$ -- 132
+cite$ -- 8
+duplicate$ -- 392
+empty$ -- 420
+format.name$ -- 18
+if$ -- 1322
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 41
-newline$ -- 38
-num.names$ -- 7
-pop$ -- 69
+int.to.str$ -- 7
+missing$ -- 60
+newline$ -- 44
+num.names$ -- 9
+pop$ -- 103
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 314
+skip$ -- 461
 stack$ -- 0
-substring$ -- 200
-swap$ -- 230
-text.length$ -- 12
+substring$ -- 314
+swap$ -- 349
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 6
+type$ -- 8
 warning$ -- 0
-while$ -- 22
-width$ -- 6
-write$ -- 74
+while$ -- 32
+width$ -- 8
+write$ -- 96

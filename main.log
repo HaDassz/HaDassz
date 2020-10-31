@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.17)  31 OCT 2020 00:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.17)  1 NOV 2020 00:01
 entering extended mode
 **c:/Users/HaDassz/Documents/論文相關/鈞惟論文模版/main.tex
 (c:/Users/HaDassz/Documents/論文相關/鈞惟論文模版/main.tex
@@ -1287,13 +1287,13 @@ Chapter 1.
 [1
 
 
-] [2]) (chapters/2-doccls.tex
-Overfull \hbox (0.31384pt too wide) in paragraph at lines 109--1
+] [2] [3]) (chapters/2-doccls.tex
+Overfull \hbox (0.31384pt too wide) in paragraph at lines 134--1
 []\TU/TimesNewRoman(0)/m/n/12 Chapter []2[] introduces thesis.cls document clas
 s. Chapter []3[] introduces section ordering. Chap-
  []
 
-[3] [4]
+[4]
 Chapter 2.
 [5
 
@@ -1348,12 +1348,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
 (\end occurred when \iffalse on line 1 was incomplete)
 (\end occurred when \iffalse on line 1 was incomplete) 
 Here is how much of TeX's memory you used:
- 26630 strings out of 414039
- 546344 string characters out of 2892337
- 1098739 words of memory out of 3000000
- 43792 multiletter control sequences out of 15000+200000
+ 26659 strings out of 414039
+ 547795 string characters out of 2892337
+ 1099360 words of memory out of 3000000
+ 43821 multiletter control sequences out of 15000+200000
  537693 words of font info for 94 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,14n,85p,475b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,85p,475b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (23 pages).
